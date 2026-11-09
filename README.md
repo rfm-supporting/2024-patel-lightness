@@ -40,26 +40,25 @@ MATLAB code, and files with extension .R are R code.
   polarity as the reference stimulus have a higher cost
 
 
---- The supporting material also includes trial-by-trial data files (data/data_*.txt).
-    In a file with a name like data_at_phys.txt, the first tag after an underscore (here, 'at')
-    is a participant's initials, and the second tag (here, 'phys') indicates the environment
-    condition, which can be physical ('phys'), VR ('vr'), or flat-panel ('flat').
+The supporting material also includes trial-by-trial data files (data/data_*.txt).
+In a file with a name like data_at_phys.txt, the first tag after an underscore (here, 'at')
+is a participant's initials, and the second tag (here, 'phys') indicates the environment
+condition, which can be physical ('phys'), VR ('vr'), or flat-panel ('flat').
 
-    The data files have the following columns.
-
-    column 1   trial number (1-150)
-    column 2   side of apparatus where reference patch was shown; 0 = left, 1 = right
-    column 3   reference stimulus number; an integer 0-2 that indicates
+The data files have the following columns.
+- column 1   trial number (1-150)
+- column 2   side of apparatus where reference patch was shown; 0 = left, 1 = right
+- column 3   reference stimulus number; an integer 0-2 that indicates
                which of three illuminance-reflectance pairs was shown as the reference stimulus;
                see columns 4 and 5 for the illuminance and reflectance values
-    column 4   white luminance at reference patch (see note below)
-    column 5   reference reflectance
-    column 6   match illuminance number; an integer 0-4 that indicates which of five
+- column 4   white luminance at reference patch (see note below)
+- column 5   reference reflectance
+- column 6   match illuminance number; an integer 0-4 that indicates which of five
                illuminances were shown at the match patch; see column 7 for illuminance value
-    column 7   white luminance at match patch (see note below)
-    column 8   reflectance of match patch at start of trial; randomly chosen
-    column 9   observer's reflectance match setting at match patch
-    column 10  response time (seconds)
+- column 7   white luminance at match patch (see note below)
+- column 8   reflectance of match patch at start of trial; randomly chosen
+- column 9   observer's reflectance match setting at match patch
+- column 10  response time (seconds)
 
 Note regarding columns 4 and 7: These two columns report the intensity of incident light at
 the reference and match patches. The values reported are the luminance (in cd/m^2) that
